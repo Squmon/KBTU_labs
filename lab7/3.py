@@ -21,7 +21,7 @@ class ball:
 
 
 b = ball(screensize[0] / 2 + 1j * screensize[1] / 2)
-speed = 1
+speed = 20
 while True:
     sc.fill([255] * 3)
     events = pg.event.get()
